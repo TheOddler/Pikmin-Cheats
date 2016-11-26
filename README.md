@@ -1,6 +1,6 @@
 # Pikmin-Cheats
 
-After many years I wanted to play Pikmin again, but I got very nervous having to deal with the time, so I decided to cheat a bit.
+After many years I wanted to play Pikmin again, but I got very nervous having to deal with the time, so I decided to cheat a bit to relieve pressure.
 I searched for some AR codes, but none were really to my liking.
 I found one that should pause the time, but that didn't seem to work.
 The author also stated that pausing the time causes Pikmin to be unable to break down walls and such, which isn't ideal.
