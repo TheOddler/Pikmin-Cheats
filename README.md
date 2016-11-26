@@ -11,6 +11,8 @@ Each cheat below must be a separate entry.
 Also don't copy the explanation of what each line does, only copy the hexadecimal stuff.
 The text after each hex instruction is just there for me and for others to learn from.
 
+Note that these were created for the european (PAL) GameCube version of Pikmin.
+
 # The Cheats
 
 Used adresses and the names I gave them:
