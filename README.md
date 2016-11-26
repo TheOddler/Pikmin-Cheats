@@ -45,3 +45,7 @@ CC3A2280 00010000       if D-Pad left is down execute all the following lines
 043A2930 00000007           set <ball number> to 7 (first of the day)
 043A2924 40131E59           set <between balls> to something small
 ```
+
+# Credits
+
+Thanks to ResidentWaffle for his [noobs guide to AR coding](https://smashboards.com/threads/guide-to-ar-and-gecko-code-writing-for-complete-noobs.336650/).
