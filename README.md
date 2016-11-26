@@ -1,6 +1,10 @@
 # Pikmin-Cheats
 
-Some Action Replay codes I made for Pikmin (PAL)
+After many years I wanted to play Pikmin again, but I got very nervous having to deal with the time, so I decided to cheat a bit.
+I searched for some AR codes, but none were really to my liking.
+I found one that should pause the time, but that didn't seem to work.
+The author also stated that pausing the time causes Pikmin to be unable to break down walls and such, which isn't ideal.
+So I decided to make my own.
 
 To use, simply create a new AR code for Pikmin in Dolphin, and add the lines below as code.
 Each cheat below must be a separate entry.
@@ -9,11 +13,15 @@ The text after each hex instruction is just there for me and for others to learn
 
 # The Cheats
 
-## D-Pad Left to reverse time
+Used adresses and the names I gave them:
+* `<between balls>` has address `3A2924`.
+It represents how far along between the current 2 balls you are on the time-line.
+It seems to range from 0 to about 70 (float) when I look at it in the debugger.
+* `<ball number>` has address `3A2930`.
+It represents the current ball you are on on the time-line.
+7 Is the first one for the day, above 7 is later in the day, below 7 is night (icon changes to a moon).
 
-Adress names:
-    <between balls> has address 3A2924 and represents how far along between the current 2 balls you are on the time-line. It seems to range from 0 to about 70 (float) when I look at it in the debugger.
-    <ball number> has address 3A2930 and represents the current ball you are on on the time-line. 7 Is the first one for the day, above 7 is later in the day, below 7 is night (icon changes to a moon).
+## Hold D-Pad Left to reverse time
 
 ```
 CC3A2280 00010000       if D-Pad left is down execute all the following lines
@@ -23,7 +31,7 @@ CC3A2280 00010000       if D-Pad left is down execute all the following lines
 043A2924 42820000               set <between balls> to 65
 ```
 
-## D-Pad Right to advance time faster
+## Hold D-Pad Right to advance time faster
 
 ```
 0C3A2280 00020000       if D-Pad right is down execute 1 line
